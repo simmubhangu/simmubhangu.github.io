@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simranjeet Singh</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my_photo.jpeg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my_photo.jpeg" alt="Simranjeet Singh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Simranjeet Singh">Simranjeet Singh</h1>
+
+          <p class="title">Deeptech Pioneer Fellow @</p>
+          <a href="https://rug.nl" class="title">The University of Groningen </a>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:s.singh@rug.nl" class="contact-link">s.singh@rug.nl</a>
+            </div>
+
+          </li>
+
+<!--          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+491783236184" class="contact-link">+49 178 3236 184</a>
+            </div>
+
+          </li>
+
+          </li>
+
+-->
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Groningen, The Netherlands</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=ONhz6Q0AAAAJ&hl=en" class="social-link">
+              <ion-icon name="school"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/simranbhangu/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/simmubhangu" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/simranjeet.xsingh/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Publications</button>
+                </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+<!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+-->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+
+          <p> I am a trained electrical engineer specializing in computer architecture and emerging technology–based computing. I earned both my Master’s and Ph.D. degrees in Electrical Engineering from the Indian Institute of Technology Bombay (IITB), Mumbai. Before and during my Master’s, I worked for five years in the Embedded & Real-Time Systems Lab (e-Yantra) at IITB, focusing on robotics and automation in self-driving and drone technologies. During my Ph.D., I had the opportunity to collaborate internationally, including a visiting scientist position at the Institute for Communication Technologies and Embedded Systems (ICE), RWTH Aachen University, Germany, and at PGI-7, Forschungszentrum Jülich, Germany. </p>
+          <p> My Ph.D. research, titled <em>“Energy-Efficient Secure In-Memory Computing with RRAM”</em>, focused on developing RRAM-based digital logic gates, multi-state architectures, Tsetlin machine architectures, and hardware security implementations. After completing my Ph.D., I continued as a postdoctoral researcher at PGI-7, Forschungszentrum Jülich, for one year. </p> 
+          <p> Currently, I am building my startup, <strong>Cimplic</strong>, which focuses on developing advanced electronic design automation (EDA) tools for future computing technologies. </p> 
+
+        </section>
+
+
+        <section class="service">
+
+          <h3 class="h3 service-title"></h3>
+
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cimplic.png" alt="design icon" width="35">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  <a href="https://www.cimplic.com" target="_blank" rel="noopener noreferrer">Cimplic</a>
+                </h4>
+
+                <p class="service-item-text">
+                  Design Automation for Future Computing Technologies.
+                </p>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Institute of Technology (IIT) Bombay</h4>
+
+
+              <p class="timeline-text">
+	      Dual Degree (M.Tech. + Ph.D.) | Electrical Engineering Specilization in Electonics Systems
+	      </p>
+	      <p class="timeline-text">
+	      <b> Thesis: </b> Energy-efficient Secure In-memory computing with RRAM
+              </p>
+              <span>2018 — 2025</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kurukshetra University, Kurukshetra</h4>
+
+
+              <p class="timeline-text">
+	      B.Tech. | Electronics and Communication Engineering
+              </p>
+              <span>2012 — 2015</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Govt. Polytechnic Sirsa, Haryana</h4>
+
+
+              <p class="timeline-text">
+	      Diploma | Electronics and Communication Engineering
+              </p>
+              <span>2009 — 2012</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Postdoctoral Researcher</h4>
+
+
+              <p class="timeline-text">
+	      Forschungszentrum Julich GmbH
+              </p>
+              <span>Sep 2024 — Aug 2025</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Visiting Scientist</h4>
+
+
+              <p class="timeline-text">
+	      Forschungszentrum Julich GmbH
+              </p>
+              <span>Feb 2023 — Dec 2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Visiting Scientist</h4>
+
+
+              <p class="timeline-text">
+		ICE at RWTH Aachen University
+              </p>
+              <span>Nov 2021 — Feb 2022</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant Project Manager</h4>
+
+
+              <p class="timeline-text">
+              e-Yantra, IIT Bombay
+	      </p>
+              <span>2015 — 2021</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+      <article class="portfolio" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+          </div>
+
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Journals</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                Fritscher, M., <u>Singh, S</u>, Rizzi, T. et al. A flexible and fast digital twin for RRAM systems applied for training resilient neural networks. 
+                Sci Rep 14, 23695 (2024). 
+      
+                    <a href="https://doi.org/10.1038/s41598-024-73439-z" target="_blank" style="color: var(--vegas-gold);">
+                        doi: 10.1038/s41598-024-73439-z
+                    </a>
+              
+            </h4>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">
+                C. K. Jha, K. Qayyum, K. Coskun, <u>S. Singh</u>, S.,et al. "veriSIMPLER: An Automated Formal Verification Methodology for SIMPLER MAGIC Design Style Based In-Memory Computing," in IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 71, no. 9, pp. 4169-4179, Sept. 2024
+
+      
+                    <a href="https://doi.org/10.1109/TCSI.2024.3424682" target="_blank" style="color: var(--vegas-gold);">
+                      doi: 10.1109/TCSI.2024.3424682
+                    </a>
+                    
+            </h4>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "Should we even optimize for execution energy? Rethinking mapping for MAGIC design style," IEEE ESL, vol. 15, no. 4, pp. 230–233, 2023.
+                  <a href="https://doi.org/10.1109/LES.2023.3298740" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/LES.2023.3298740
+                  </a>
+              
+                </h4>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              Parrini, L., Soliman, T., Hettwer, B., Borrmann, M. J., <u>Singh, S</u>, et al. 
+              "Neural In-Memory Checksums: An Error Detection and Correction Technique for In-Memory Computations."
+      
+            </h4>
+            <span> Accepted at Royal society - Philosophical Transactions A</span>
+          </li>
+          
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              <u>Singh, S</u>, Paul, G., Bende, A., Kempen, T., Cüppers, F., Patkar, S., Rana, V., & Merchant, F. 
+              "Sequence Detection in Bilayer 1T1R RRAM Device with In-Memory Computing."
+            </h4>
+            <span> Under review at Nature scientific report</span>
+          </li>
+          
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Conferences</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  Bende, A.<sup>*</sup>, <u>Singh, S</u><sup>*</sup>, et al. "Experimental Validation of Memristor-Aided Logic Using 1T1R TaOx RRAM Crossbar Array," in 37th IEEE VLSID, 2024, pp. 565–570.
+                  <a href="https://doi.org/10.1109/VLSID60093.2024.00100" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/VLSID60093.2024.00100
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "Hardware Security Primitives Using Passive RRAM Crossbar Array: Novel TRNG and PUF Designs," in ASP-DAC 2023, New York, NY, USA, 2023, p. 449–454.
+                  <a href="https://doi.org/10.1145/3566097.3568348" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1145/3566097.3568348
+                  </a>
+                </h4>
+          </li>
+
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "Exploring Multi-Valued Logic and its Application in Emerging Post-CMOS Technologies," in 18th NanoArch, New York, NY, USA, 2024.
+                  <a href="https://doi.org/10.1145/3611315.3633268" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1145/3611315.3633268
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  Jha, C. K., Qayyum, K., Ç. Coşkun, <u>Singh, S</u>, et al. "veriSIMPLER: An Automated Formal Verification Methodology for SIMPLER MAGIC Design Style Based In-Memory Computing," Accepted in TCAS-I, 2024.
+                  <a href="https://doi.org/10.1109/LES.2023.3298740" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/LES.2023.3298740
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "In-Memory Mirroring: Cloning Without Reading," Accepted in IFIP/IEEE VLSI-SoC, 2024.
+                  <a href="https://doi.org/10.48550/arXiv.2407.02921" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.48550/arXiv.2407.02921
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "Finite State Automata Design using 1T1R ReRAM Crossbar," in 21st IEEE NEWCAS, 2023, pp. 1–5.
+                  <a href="https://doi.org/10.1109/NEWCAS57931.2023.10198206" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/NEWCAS57931.2023.10198206
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  Ghazal, O.<sup>*</sup>, <u>Singh, S</u><sup>*</sup>, et al. "IMBUE: In-Memory Boolean-to-CUrrent Inference ArchitecturE for Tsetlin Machines," in ISLPED, 2023, pp. 1–6.
+                  <a href="https://doi.org/10.1109/ISLPED58423.2023.10244315" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/ISLPED58423.2023.10244315
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  Parrini, L., Soliman, T., Hettwer, B., Borrmann, J. M., <u>Singh, S</u>, et al. "Error Detection and Correction Codes for Safe In-Memory Computations," ETS, 2024 (Accepted).
+                  <a href="https://doi.org/10.48550/arXiv.2404.09818" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.48550/arXiv.2404.09818
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "PA-PUF: A Novel Priority Arbiter PUF," in IFIP/IEEE VLSI-SoC, 2022, pp. 1–6.
+                  <a href="https://doi.org/10.1109/VLSI-SoC54400.2022.9939642" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/VLSI-SoC54400.2022.9939642
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  Rajendran, G., Zahoor, F., <u>Singh, S</u>, et al. "PR-PUF: A Reconfigurable Strong RRAM PUF," in IFIP/IEEE VLSI-SoC, 2023, pp. 1–6.
+                  <a href="https://doi.org/10.1109/VLSI-SoC57769.2023.10321884" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/VLSI-SoC57769.2023.10321884
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  Rajendran, G., Zahoor, F., Thakker, S. S., <u>Singh, S</u>, et al. "Harnessing Entropy: RRAM Crossbar-Based Unified PUF and RNG," in 37th IEEE VLSID, 2024, pp. 560–564.
+                  <a href="https://doi.org/10.1109/VLSID60093.2024.00099" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/VLSID60093.2024.00099
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "Integrated Architecture for Neural Networks and Security Primitives using RRAM Crossbar," in NEWCAS, 2023, pp. 1–5.
+                  <a href="https://doi.org/10.1109/NEWCAS57931.2023.10198126" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/NEWCAS57931.2023.10198126
+                  </a>
+                </h4>
+          </li>
+          <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                  <u>Singh, S</u>, et al. "MemSPICE: Automated Simulation and Energy Estimation Framework for MAGIC-Based Logic-in-Memory," in 29th ASP-DAC, 2024, pp. 282–287.
+                  <a href="https://doi.org/10.1109/ASP-DAC58780.2024.10473924" target="_blank" style="color: var(--vegas-gold);">
+                    doi: 10.1109/ASP-DAC58780.2024.10473924
+                  </a>
+                </h4>
+          </li>
+          </ol>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31216.205181877078!2d6.55057369993329!3d53.23319236446205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c9cd1b681d98e9%3A0xa2488f494fd96b04!2sUniversity%20of%20Groningen%2C%20Zernike%20Campus!5e0!3m2!1sen!2sde!4v1755090988341!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
